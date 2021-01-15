@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="activity_iphone_detay_img_kapak_widht">250dp</dimen>
+    <dimen name="activity_iphone_detay_img_kapak_height">300dp</dimen>
+    <dimen name="activity_iphone_detay_txt_baslik_padding">10dp</dimen>
+    <dimen name="activity_iphone_detay_txt_detay_padding">10dp</dimen>
+    <dimen name="activity_liste_img_kapak_widht">300dp</dimen>
+    <dimen name="activity_liste_img_kapak_height">200dp</dimen>
+    <dimen name="activity_liste_rcvModeller_height">0dp</dimen>
+    <dimen name="activity_splash_imageview_widht">317dp</dimen>
+    <dimen name="activity_splash_imageview_height">376dp</dimen>
+    <dimen name="activity_splash_imageview_marginstart">38dp</dimen>
+    <dimen name="activity_splash_imageview_margintop">46dp</dimen>
+    <dimen name="activity_splash_imageview_marginend">38dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_widht">50dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_height">100dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_marginstart">16dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_margintop">16dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_marginbottom">16dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_topmargin">10dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_leftmargin">10dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_bottommargin">10dp</dimen>
+    <dimen name="cardview_iphone_imgIphoneLogo_txtsize">30sp</dimen>
+
+</resources>
