@@ -26,8 +26,10 @@ Proje 3 ekrandan oluşmaktadır.
 ## Mimari
 Bu uygulamada MVVM [Model-View-ViewModel] mimarisini kullanılmaktadır.
 
-# MVVM Nedir?
-Model-View-ViewModel (yani MVVM), John Gossman tarafından Veri Bağlama teknolojisi kullanılırken MVC ve MVP modellerine alternatif olarak önerilen bir istemci uygulama mimarisinin bir şablonudur. Konsepti, veri sunum mantığını açık bir ayrım için belirli bir sınıfa taşıyarak iş mantığından ayırmaktır.
+# MVC Nedir?
+MVC, Yazılım Mühendisliği’nde önemli bir yere sahip architectural patterns (yazılım mimari desenleri)’ın bir parçasıdır. Model, View ve Controller kelimelerinin baş harflerinden oluşan MVC (Model-View-Controller), 1979 yılında Tygve Reeskaug tarafından oluşturulmuş ve yazılım gelişmede bir çok projede kullanılmıştır. Son dönemlerde Microsoft’un MVC desenini Asp.Net teknolojisi ile birleştirmesi ile popülaritesi daha da artmıştır.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwyLja1FqR4j1893MBIuB6Nd7AcaUz8rJDDA&usqp=CAU"/>
 
 ## Kullanılan teknolojiler
 
