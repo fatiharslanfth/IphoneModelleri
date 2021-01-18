@@ -24,7 +24,8 @@ Proje 3 ekrandan oluşmaktadır.
 </p>
 
 ## Mimari
-Bu uygulamada MVVM [Model-View-ViewModel] mimarisini kullanılmaktadır.
+Bu uygulamada MVC mimarisini kullanılmaktadır.
+<img src="https://i.hizliresim.com/eCn02m.png="500"/>
 
 # MVC Nedir?
 MVC, Yazılım Mühendisliği’nde önemli bir yere sahip architectural patterns (yazılım mimari desenleri)’ın bir parçasıdır. Model, View ve Controller kelimelerinin baş harflerinden oluşan MVC (Model-View-Controller), 1979 yılında Tygve Reeskaug tarafından oluşturulmuş ve yazılım gelişmede bir çok projede kullanılmıştır. Son dönemlerde Microsoft’un MVC desenini Asp.Net teknolojisi ile birleştirmesi ile popülaritesi daha da artmıştır.
