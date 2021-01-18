@@ -25,6 +25,7 @@ Proje 3 ekrandan oluşmaktadır.
 
 ## Mimari
 Bu uygulamada MVC mimarisini kullanılmaktadır.
+
 <img src="https://i.hizliresim.com/eCn02m.png" height="500"/>
 
 # MVC Nedir?
