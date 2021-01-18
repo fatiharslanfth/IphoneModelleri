@@ -136,6 +136,7 @@ public class ListeActivity extends AppCompatActivity {
         String tiklananIphoneString= ObjectUtil.iphoneToJsonString(tiklananIphone);
         secondActivityIntent.putExtra(Constants.TIKANAN_BURC_TASINANIN_BASLIGI,tiklananIphoneString);
         startActivity(secondActivityIntent);
+
     }
 
 

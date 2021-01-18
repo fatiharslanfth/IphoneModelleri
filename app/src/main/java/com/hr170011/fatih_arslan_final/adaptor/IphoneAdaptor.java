@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.hr170011.fatih_arslan_final.R;
 import com.hr170011.fatih_arslan_final.model.IphoneModel;
 import com.hr170011.fatih_arslan_final.util.GlideUtil;
-
+import com.hr170011.fatih_arslan_final.util.ProgressUtil;
 
 
 import java.util.List;
@@ -47,7 +47,7 @@ public class IphoneAdaptor extends RecyclerView.Adapter<IphoneViewHolder> {
         viewHolder.txtTarih.setText(iphonelar.get(position).getIphoneTarihi());
         viewHolder.txtIphoneAdi.setText(iphonelar.get(position).getIphoneAdi());
         GlideUtil.resmiIndiripGoster(context,iphonelar.get(position).getLogoUrl(),viewHolder.imgIphoneLogo);
-
+        ProgressUtil.getInstance().closeProgressDialog();
     }
 
     @Override

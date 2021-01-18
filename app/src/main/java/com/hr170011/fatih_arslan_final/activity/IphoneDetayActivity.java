@@ -1,10 +1,12 @@
 package com.hr170011.fatih_arslan_final.activity;
 
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.hr170011.fatih_arslan_final.R;
@@ -21,12 +23,19 @@ public class IphoneDetayActivity extends AppCompatActivity {
     TextView txtDetay;
 
     @Override
+    public void onBackPressed() {
+        ProgressUtil.getInstance().closeProgressDialog();
+        IphoneDetayActivity.super.onBackPressed();
+
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iphone_detay);
 
-        ProgressUtil.getInstance().closeProgressDialog();
+
 
         String tasinanIphoneString =getIntent().getStringExtra(Constants.TIKANAN_BURC_TASINANIN_BASLIGI);
         IphoneModel iphoneModel = ObjectUtil.jsonStringToIphone(tasinanIphoneString);
