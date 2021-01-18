@@ -39,6 +39,8 @@ MVC, Yazılım Mühendisliği’nde önemli bir yere sahip architectural pattern
 <li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel ">RecyclerView</a></li>
 <li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel ">NestedScrollView</a></li>
 <li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel ">RxJava</a></li>
+<li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel ">Retrofit</a></li>
+<li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel ">Observer</a></li>
  
 License
 --------
